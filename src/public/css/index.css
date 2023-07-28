@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+input,
+textarea {
+    border:none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.inquiry__content {
+    background-color: aqua;
+    margin: 0 auto;
+    width: 650px;
+}
+
+.inquiry__title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.inquiry__form__group {
+    background-color: aquamarine;
+    display: flex;
+}
+
+.inquiry__form__title {
+    align-items: center;
+    background-color: blanchedalmond;
+    display: flex;
+    height: 40px;
+    width: 28%;
+}
+
+.form__title-text {
+    font-weight: bold;
+    padding-right: 2px;
+}
+
+.form__title-text--required {
+    color: #ff0000;
+}
+
+.inquiry__form__item {
+    background-color: burlywood;
+    width: 72%;
+}
+
+.form__fullName--flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.familyName,
+.givenName {
+    height: 40px;
+    padding: 0 10px;
+    width: 48%;
+}
+
+.form-error--familyName {
+    background-color: #ff0000;
+    display: inline-block;
+    width: 52%;
+}
+
+.familyName-example-text,
+.givenName-example-text {
+    color: #ddd;
+}
+
+.familyName-example-text {
+    background-color: #ff0000;
+    display: inline-block;
+    width: 52%;
+}
+
+.inquiry__form__item {
+    background-color: blue;
+}
